@@ -1,4 +1,6 @@
 基于react和webpack2的脚手架
 
+git后 运行npm install
+然后：
 npm run dev 启动 
 npm run build 打包
