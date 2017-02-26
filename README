@@ -1,0 +1,4 @@
+基于react和webpack2的脚手架
+
+npm run dev 启动 
+npm run build 打包
