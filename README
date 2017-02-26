@@ -3,4 +3,5 @@
 git后 运行npm install
 然后：
 npm run dev 启动 
+在127.0.0.1:3000/index.html | 127.0.0.1:3000/activity.html | 127.0.0.1:3000/detail.html 看到效果
 npm run build 打包
