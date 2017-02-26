@@ -1,0 +1,50 @@
+$font:#999;
+$color:#ff8800;
+$border:#e5e5e5;
+/* 默认样式*/
+body,div,ul,li,img,dl,dt,dd,a,p,h1,h2,h3,h4,h5,h6,input,span,button,form,select,article,figure,figcaption,option,html,datalist{
+	padding:0;
+	margin:0;
+	border:0;
+	list-style:none;
+}
+img{
+	display:block;
+	border:0;
+}
+body{
+	font-size: 0.12rem;
+	font-family: "Microsoft YaHei"!important;
+}
+input,textarea{
+	outline: none;
+}
+.w{
+	width:1200px;
+	margin:0 auto;
+}
+.l{
+	float:left;
+}
+.r{
+	float:right;
+}
+a{
+	text-decoration: none;
+	&:hover{
+		text-decoration: none;
+	}
+}
+%igone{
+  text-overflow: ellipsis;;
+  white-space: nowrap;
+  overflow: hidden;
+}
+%middle{
+  position: absolute;
+  margin:auto;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
